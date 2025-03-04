@@ -1,6 +1,6 @@
 variable "aws_region" {
-    default = "ca-central-1"
-  
+  default = "ca-central-1"
+
 }
 
 variable "availability_zone" {
@@ -8,11 +8,11 @@ variable "availability_zone" {
 }
 
 variable "instance_type" {
-    default = "t2.medium"
-  
+  default = "t2.micro"
+
 }
 
 variable "ami" {
-    default = "ami-055943271915205db"
-  
+  default = "ami-055943271915205db"
+
 }

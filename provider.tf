@@ -2,8 +2,8 @@
 
 provider "aws" {
 
-    region =  var.aws_region  # region -us-east-1
-    profile = "default"
+  region  = var.aws_region # region -us-east-1
+  profile = "default"
 }
 
 # aws configure 
